@@ -5,6 +5,8 @@ original description at http://m0xpd.blogspot.co.uk/2017/02/signal-processing-on
 
 The standard Arduino is **ATMEGA328P**, and running at 5V is convenient as hardware.
 
+The original is "Arduino Nano", and as of 2026, it is "Arduino Nano R4".  It is expected to be 8x faster.
+
 However, since it is an **8-bit MPU**, it is not good at floating-point arithmetic.
 
 Therefore, in the original, the voltage was updated at a sample rate of *3.3 kHz*, so the 12-bit DAC was running like a 7-bit DAC.

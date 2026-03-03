@@ -15,6 +15,8 @@ Change to another platform? My conclusion is *No*.
 
 ## Features
 
+Arduino Uno/Nano/Nano R4 Support.
+
 The main result was that optimizing cos() and sqrt() was **750x faster**.
 
 The SPI part, it has been increased by **62x faster**.
